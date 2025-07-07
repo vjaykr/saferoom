@@ -232,4 +232,6 @@ status_thread.daemon = True
 status_thread.start()
 
 if __name__ == '__main__':
+    print("Server is running on http://localhost:5000")
     socketio.run(app, debug=True, host='0.0.0.0', port=5000)
+  
