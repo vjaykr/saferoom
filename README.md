@@ -106,6 +106,11 @@ npm run build
 
 This will create a production-ready build in the `frontend/build` directory.
 
+Then Navigate to backend directory
+
+```bash
+py app.py
+```
 Your Flask backend will automatically serve the React frontend. Open your browser and go to:
 
 ```
